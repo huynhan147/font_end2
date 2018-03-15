@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+@font-face {
+  font-family: MyriadPro-Light;
+  src: url("../fonts/myriadpro-light.otf"); }
+
+.container {
+  min-height: 950px;
+  background: linear-gradient(-150deg, #6049a9, #6049a9, #cc3b82, #d14681, #debd6d, #f3ae36);
+  max-width: 1500px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .container .content {
+    width: 500px;
+    height: 750px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 8px 5px 15px #433e3f; }
+    .container .content .header {
+      width: 100%;
+      height: 70px;
+      position: relative; }
+      .container .content .header .avatar {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+        left: 20px;
+        top: 10px; }
+      .container .content .header .user {
+        position: absolute;
+        top: 15px;
+        left: 75px; }
+        .container .content .header .user p {
+          font-family: MyriadPro-Light;
+          font-weight: bold;
+          color: #767676;
+          font-size: 13px; }
+      .container .content .header .follow {
+        position: absolute;
+        top: 20px;
+        right: 50px; }
+        .container .content .header .follow #fl2 {
+          position: absolute;
+          right: 30px;
+          top: 15px; }
+      .container .content .header .option {
+        position: absolute;
+        top: 25px;
+        right: 20px; }
+    .container .content .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 510px;
+      background-color: #dfdede; }
+    .container .content .footer {
+      width: 100%;
+      height: 170px;
+      position: relative; }
+      .container .content .footer .item3 {
+        position: absolute;
+        top: 25px;
+        right: 15px; }
+      .container .content .footer .item2 {
+        position: absolute;
+        top: 25px;
+        left: 85px; }
+      .container .content .footer .item1 {
+        position: absolute;
+        top: 25px;
+        left: 30px; }
+    .container .content .like {
+      position: absolute;
+      top: 75px;
+      left: 35px; }
+    .container .content .status {
+      width: 100%;
+      position: absolute;
+      top: 115px;
+      left: 35px; }
+      .container .content .status span {
+        font-family: MyriadPro-Light;
+        font-weight: bold;
+        color: #356bb4;
+        position: absolute;
+        top: 0px;
+        left: 150px; }
+  .container .design {
+    margin-top: 35px; }

@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: MyriadPro-Light;
+  src: url("../fonts/myriadpro-light.otf");
+}
+.container{
+  min-height: 950px;
+  background:linear-gradient(-150deg, #6049a9,#6049a9,#cc3b82,#d14681,#debd6d,#f3ae36);
+  max-width: 1500px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  .content{
+    width: 500px;
+    height: 750px;
+    //border: 1px solid red;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 8px 5px 15px #433e3f;
+    .header{
+      width: 100%;
+      height: 70px;
+      position: relative;
+      .avatar{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+      }
+      .user{
+        position: absolute;
+        top: 15px;
+        left: 75px;
+        p{
+          font-family: MyriadPro-Light;
+          font-weight: bold;
+          color: #767676;
+          font-size: 13px;
+        }
+      }
+      .follow{
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        #fl2{
+          position: absolute;
+          right: 30px;
+          top: 15px;
+
+        }
+      }
+      .option{
+        //float: right;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+      }
+    }
+    .images{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 510px;
+      background-color: #dfdede;
+    }
+    .footer{
+      width: 100%;
+      height: 170px;
+      //border: 1px solid red;
+      //display: flex;
+      position: relative;
+      .item3{
+        position: absolute;
+        top: 25px;
+        right: 15px ;
+
+      }
+      .item2{
+        position: absolute;
+        top: 25px;
+        left: 85px ;
+
+      }
+      .item1{
+        position: absolute;
+        top: 25px;
+        left: 30px ;
+      }
+    }
+    .like{
+      position: absolute;
+      top: 75px;
+      left: 35px;
+    }
+    .status{
+      width: 100%;
+      position: absolute;
+      top: 115px;
+      left: 35px;
+      span{
+        font-family: MyriadPro-Light;
+        font-weight: bold;
+        color: #356bb4;
+        position: absolute;
+        top: 0px;
+        left: 150px;
+      }
+    }
+  }
+  .design{
+    margin-top: 35px;
+  }
+}
