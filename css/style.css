@@ -25,36 +25,32 @@
     .container .content .header {
       width: 100%;
       height: 70px;
-      position: relative; }
-      .container .content .header .avatar {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        background-color: black;
-        position: absolute;
-        left: 20px;
-        top: 10px; }
+      position: relative;
+      display: flex; }
+      .container .content .header .image-ava {
+        padding: 15px 15px 10px 15px; }
+        .container .content .header .image-ava .avatar {
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          background-color: black; }
       .container .content .header .user {
-        position: absolute;
-        top: 15px;
-        left: 75px; }
+        width: 150px;
+        height: 80%;
+        padding: 20px 15px 0px 5px; }
         .container .content .header .user p {
           font-family: MyriadPro-Light;
           font-weight: bold;
           color: #767676;
           font-size: 13px; }
       .container .content .header .follow {
-        position: absolute;
-        top: 20px;
-        right: 50px; }
+        padding: 20px 0px 0px 75px; }
         .container .content .header .follow #fl2 {
           position: absolute;
-          right: 30px;
-          top: 15px; }
+          right: 90px;
+          top: 35px; }
       .container .content .header .option {
-        position: absolute;
-        top: 25px;
-        right: 20px; }
+        padding: 25px; }
     .container .content .images {
       display: flex;
       justify-content: center;
@@ -65,41 +61,30 @@
     .container .content .footer {
       width: 100%;
       height: 170px;
-      position: relative; }
-      .container .content .footer .item3 {
-        position: absolute;
-        top: 25px;
-        right: 25px; }
+      display: flex;
+      flex-direction: column; }
+      .container .content .footer .nav {
+        display: flex; }
       .container .content .footer .item2 {
-        position: absolute;
-        top: 25px;
-        left: 85px; }
-      .container .content .footer .item1 {
-        position: absolute;
-        top: 25px;
-        left: 30px; }
+        padding: 25px 25px 0px 0px; }
       .container .content .footer .item4 {
-        position: absolute;
-        top: 25px;
-        left: 27%; }
-        .nav{
-          margin:25px;
-        }
+        padding: 25px 25px 0px 0px; }
+      .container .content .footer .item3 {
+        padding: 25px 25px 0px 245px; }
+      .container .content .footer .item1 {
+        padding: 25px 25px 0px 25px; }
     .container .content .like {
-      position: absolute;
-      top: 75px;
-      left: 35px; }
+      padding: 15px 0px 0px 30px; }
     .container .content .status {
       width: 100%;
-      position: absolute;
-      top: 115px;
-      left: 35px; }
+      padding: 20px 0px 25px 30px;
+      display: flex; }
+      .container .content .status .coon {
+        padding-left: 45px; }
       .container .content .status span {
         font-family: MyriadPro-Light;
         font-weight: bold;
         color: #356bb4;
-        position: absolute;
-        top: 0px;
-        left: 150px; }
+        padding-bottom: 35px; }
   .container .design {
     margin-top: 35px; }

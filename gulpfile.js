@@ -1,10 +1,23 @@
+var path = ".";
 var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
-gulp.task('sass',function(){
-    return gulp.src('scss/style.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('css'));
+//
+gulp.task('default', ['sass'], function() {
+    browserSync.init({
+        server: "."
+    });
+
+    gulp.watch(path + "/scss/**/*.scss", ['sass']);
+    gulp.watch(path + "/index.html").on('change', function(){
+        console.log("Reloading");
+        browserSync.reload();
+    });
 });
-gulp.task('watch',function(){
-    gulp.watch('scss/**/*.scss',['sass']);
-})
+//Task compile sass
+gulp.task('sass', function() {
+    return gulp.src(path + "/scss/*.scss")
+        .pipe(sass())
+        .pipe(gulp.dest(path + "/css/"))
+        .pipe(browserSync.stream());
+});

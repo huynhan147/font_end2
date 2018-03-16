@@ -28,19 +28,30 @@
       width: 100%;
       height: 70px;
       position: relative;
-      .avatar{
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        background-color: black;
-        position: absolute;
-        left: 20px;
-        top: 10px;
+      display: flex;
+      .images{
+
       }
+     .image-ava{
+       padding: 15px 15px 10px 15px;
+       .avatar{
+         width: 45px;
+         height: 45px;
+         border-radius: 50%;
+         background-color: black;
+         //padding: 15px;
+         //position: absolute;
+         //left: 20px;
+         //top: 10px;
+       }
+     }
       .user{
-        position: absolute;
-        top: 15px;
-        left: 75px;
+        width: 150px;
+        height: 80%;
+        padding:20px 15px 0px 5px;
+        //position: absolute;
+        //top: 15px;
+        //left: 75px;
         p{
           font-family: MyriadPro-Light;
           font-weight: bold;
@@ -49,21 +60,20 @@
         }
       }
       .follow{
-        position: absolute;
-        top: 20px;
-        right: 50px;
+        padding: 20px 0px 0px 75px;
         #fl2{
           position: absolute;
-          right: 30px;
-          top: 15px;
+          right: 90px;
+          top: 35px;
 
         }
       }
       .option{
         //float: right;
-        position: absolute;
-        top: 25px;
-        right: 20px;
+        padding: 25px;
+        //position: absolute;
+        //top: 25px;
+        //right: 20px;
       }
     }
     .images{
@@ -77,44 +87,57 @@
     .footer{
       width: 100%;
       height: 170px;
-      //border: 1px solid red;
-      //display: flex;
-      position: relative;
-      .item3{
-        position: absolute;
-        top: 25px;
-        right: 15px ;
 
+      //border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      //position: relative;
+      .nav{
+        display: flex;
       }
       .item2{
-        position: absolute;
-        top: 25px;
-        left: 85px ;
+        //position: absolute;
+        //top: 25px;
+        //left: 85px ;
+        //padding: 25px 25px 25px 0px;
+        padding: 25px 25px 0px 0px;
 
       }
+      .item4{
+        padding: 25px 25px 0px 0px;
+      }
+      .item3{
+        padding: 25px 25px 0px 245px;
+      }
       .item1{
-        position: absolute;
-        top: 25px;
-        left: 30px ;
+        padding: 25px 25px 0px 25px;
+        //position: absolute;
+        //top: 25px;
+        //left: 30px ;
       }
     }
     .like{
-      position: absolute;
-      top: 75px;
-      left: 35px;
+      padding: 15px 0px 0px 30px;
+      //position: absolute;
+      //top: 75px;
+      //left: 35px;
     }
     .status{
       width: 100%;
-      position: absolute;
-      top: 115px;
-      left: 35px;
+      padding: 20px 0px 25px 30px;
+      display: flex;
+      .coon{
+        padding-left: 45px;
+      }
       span{
         font-family: MyriadPro-Light;
         font-weight: bold;
         color: #356bb4;
-        position: absolute;
-        top: 0px;
-        left: 150px;
+        //padding: 15px 25px 50px 25px;
+        padding-bottom: 35px;
+        //position: absolute;
+        //top: 0px;
+        //left: 150px;
       }
     }
   }
