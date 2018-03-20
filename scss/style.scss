@@ -7,141 +7,163 @@
   src: url("../fonts/myriadpro-light.otf");
 }
 .container{
-  min-height: 950px;
+  min-height: 71.5vw;
   background:linear-gradient(-150deg, #6049a9,#6049a9,#cc3b82,#d14681,#debd6d,#f3ae36);
-  max-width: 1500px;
-  margin: 0px;
   display: flex;
   flex-direction: column;
 
   justify-content: center;
   align-items: center;
   .content{
-    width: 500px;
-    height: 750px;
-    //border: 1px solid red;
+    width: 37.5vw;
+    height: 56.4vw;
     display: flex;
     background-color: white;
     flex-direction: column;
-    box-shadow: 8px 5px 15px #433e3f;
+    box-shadow: 0.6vw 0.4vw 1.2vw #433e3f;
     .header{
       width: 100%;
-      height: 70px;
+      height: 5.3vw;
       position: relative;
       display: flex;
       .images{
 
       }
      .image-ava{
-       padding: 15px 15px 10px 15px;
+       padding: 1.2vw 1.2vw 0.75vw 1.2vw;
        .avatar{
-         width: 45px;
-         height: 45px;
+         width: 3.4vw;
+         height: 3.4vw;
          border-radius: 50%;
          background-color: black;
-         //padding: 15px;
-         //position: absolute;
-         //left: 20px;
-         //top: 10px;
        }
      }
       .user{
-        width: 150px;
+        width: 11.1vw;
         height: 80%;
-        padding:20px 15px 0px 5px;
-        //position: absolute;
-        //top: 15px;
-        //left: 75px;
+        //padding:1vw 1.2vw 0vw 0.4vw;
+        img{
+          padding-top: 1.5vw;
+        }
         p{
           font-family: MyriadPro-Light;
           font-weight: bold;
           color: #767676;
-          font-size: 13px;
+          font-size: 1vw;
+          //margin-bottom: 2vm;
+        }
+        img{
+          width: 8.2vw;
+          height: 1.5vw;
         }
       }
       .follow{
-        padding: 20px 0px 0px 75px;
+        padding: 1.5vw 0vw 0vw 7.5vw;
         #fl2{
           position: absolute;
-          right: 90px;
-          top: 35px;
+          right: 6vw;
+          //left: 3vw;
+          top: 2.7vw;
+          width: 3.7vw;
+          height: 0.8vw;
 
         }
+        #fl1{
+          width: 9.4vw;
+          height: 2.9vw;
+          position: absolute;
+          //left: 9vm;
+        }
+        .option{
+          padding: 0.3vw 1.5vw 1.3vw 11vw;
+          width: 0.5vw;
+          height: 2.2vw;
+        }
       }
-      .option{
-        //float: right;
-        padding: 25px;
-        //position: absolute;
-        //top: 25px;
-        //right: 20px;
-      }
+
+
     }
     .images{
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 510px;
+      height: 38.4vw;
       background-color: #dfdede;
+      img{
+        width: 17.4vw;
+        height: 13.7vw;
+
+      }
     }
     .footer{
       width: 100%;
-      height: 170px;
-
-      //border: 1px solid red;
+      height: 12.8vw;
       display: flex;
       flex-direction: column;
-      //position: relative;
       .nav{
         display: flex;
       }
       .item2{
-        //position: absolute;
-        //top: 25px;
-        //left: 85px ;
-        //padding: 25px 25px 25px 0px;
-        padding: 25px 25px 0px 0px;
+        padding: 2vw 2vw 0vw 0vw;
+        width: 2.1vw;
+        height: 2.1vw;
 
       }
       .item4{
-        padding: 25px 25px 0px 0px;
+        padding: 2vw 2vw 0vw 0vw;
+        width: 2.8vw;
+        height: 2.2vw;
       }
       .item3{
-        padding: 25px 25px 0px 245px;
+        padding: 2vw 2vw 0vw 18.5vw;
+        width: 2.4vw;
+        height: 2.5vw;
       }
       .item1{
-        padding: 25px 25px 0px 25px;
-        //position: absolute;
-        //top: 25px;
-        //left: 30px ;
+        padding: 2vw 2vw 0vw 2vw;
+        width: 2.5vw;
+        height: 2.2vw;
       }
     }
     .like{
-      padding: 15px 0px 0px 30px;
-      //position: absolute;
-      //top: 75px;
-      //left: 35px;
+      padding: 1.2vw 0vw 0vw 2.3vw;
+      img:first-child{
+        width: 1.2vw;
+        height: 1vw;
+
+      }
+      img:last-child{
+        width: 5.7vw;
+        height: 1.3vw;
+      }
     }
     .status{
       width: 100%;
-      padding: 20px 0px 25px 30px;
+      padding: 1.5vw 0vw 2vw 2.3vw;
       display: flex;
       .coon{
-        padding-left: 45px;
+        padding-left: 3.4vw;
+        font-size: 1.2vw;
       }
       span{
         font-family: MyriadPro-Light;
         font-weight: bold;
         color: #356bb4;
-        //padding: 15px 25px 50px 25px;
-        padding-bottom: 35px;
-        //position: absolute;
-        //top: 0px;
-        //left: 150px;
+        padding-bottom: 2.7vw;
+
+      }
+      img{
+        width: 8.3vw;
+        height: 1.5vw;
       }
     }
   }
   .design{
-    margin-top: 35px;
+    margin-top: 2.7vw;
+    img{
+      width: 25.1vw;
+      height: 2.5vw;
+    }
   }
 }
